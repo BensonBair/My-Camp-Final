@@ -75,7 +75,7 @@
     "typeorm": "^0.2.28"
   },
   "scripts": {
-    "start": "node server/server.js & node scripts/start.js",
+    "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },

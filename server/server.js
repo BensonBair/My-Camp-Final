@@ -233,7 +233,7 @@ async function connectToDb() {
 }
 
 const server = new ApolloServer({
-  typeDefs: fs.readFileSync('server/schema.js', 'utf-8'),
+  typeDefs: fs.readFileSync('schema.js', 'utf-8'),
   resolvers,
   formatError: error => {
     console.log(error);
